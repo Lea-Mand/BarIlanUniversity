@@ -1,0 +1,25 @@
+.homePageMainDiv {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100% !important;
+}
+
+/* .formControl{
+    width:100%;
+    max-width: 80%;
+    align-items: center;
+} */
+
+span {
+  margin: 4px;
+}
+
+.labelChoosePayment {
+  font-size: x-large;
+  color: rgba(3, 3, 164, 0.932);
+}
+
+.divMethodsOfPayment{
+  width: 100%;
+}

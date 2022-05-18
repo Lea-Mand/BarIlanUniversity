@@ -1,0 +1,23 @@
+.divUploadFile {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 45% !important;
+  margin-left: 28% !important;
+  margin-right: 28% !important;
+}
+
+.buttonUploadFile{
+    font-size: 3vh !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white !important;
+    width: 100% !important;
+    border-color:rgb(76, 177, 207) !important;
+    border-width: medium !important;
+    background-color:rgb(76, 177, 207)!important;
+    margin-bottom: 2vh !important;
+    height: 12vh;
+    text-transform: none !important;
+    border-radius: 12px !important;
+
+}

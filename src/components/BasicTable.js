@@ -9,6 +9,7 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import TextField from '@mui/material/TextField';
 import '../styles/BasicTable.css'
+import HomePage from './HomePage';
 
 
 const BasicTable = () => {
@@ -16,7 +17,7 @@ const BasicTable = () => {
     const [selectedInstitution, setSelectedInstitution] = useState( { 'name': '', 'institutionSymbol':'', 'fat': '', 'carbs': '', 'protein':'' });
     const [rows, setRows] = useState([
         { 'name': 'Frozen yoghurt', 'institutionSymbol': 159, 'fat': 6.0, 'carbs': 24, 'protein': 4.0 },
-        { 'name': 'Ice cream sandwich', 'institutionSymbol': 237, 'fat': 9.0, 'carbs': 37, 'protein': 4.3 },
+        { 'name': 'Ice cream sandwich', 'institutionSymbol': 234, 'fat': 9.0, 'carbs': 37, 'protein': 4.3 },
         { 'name': 'Eclair', 'institutionSymbol': 262, 'fat': 16.0, 'carbs': 24, 'protein': 6.0 },
         { 'name': 'Cupcake', 'institutionSymbol': 305, 'fat': 3.7, 'carbs': 67, 'protein': 4.3 },
         { 'name': 'Gingerbread', 'institutionSymbol': 356, 'fat': 16.0, 'carbs': 49, 'protein': 3.9 }
@@ -75,6 +76,7 @@ const BasicTable = () => {
                     </TableBody>
                 </Table>
             </TableContainer>
+            <HomePage/>
         </div>
     );
 }
